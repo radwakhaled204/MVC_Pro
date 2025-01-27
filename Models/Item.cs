@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Mvc_train.Models
 {
@@ -17,6 +18,11 @@ namespace Mvc_train.Models
 
         [Required]
         public DateTime CreatedDate { get; set; }= DateTime.Now;
+        [Required]
+        [DisplayName("Category")]
+        [ForeignKey(nameof(Category))]
+        public int CategoryId { get; set; }
 
+        public mvcCategory? Category { get; set; }
     }
 }

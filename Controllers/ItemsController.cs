@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Mvc_train.Data;
 using Mvc_train.Models;
 
@@ -21,7 +22,7 @@ namespace Mvc_train.Controllers
         //GET
         public IActionResult New()
         {
-            // createSelectList();
+            createSelectList();
             return View();
         }
 
@@ -48,22 +49,18 @@ namespace Mvc_train.Controllers
             }
         }
 
-        //public void createSelectList(int selectId = 1)
-        //{
-        //    //List<Category> categories = new List<Category> {
-        //    //  new Category() {Id = 0, Name = "Select Category"},
-        //    //  new Category() {Id = 1, Name = "Computers"},
-        //    //  new Category() {Id = 2, Name = "Mobiles"},
-        //    //  new Category() {Id = 3, Name = "Electric machines"},
-        //    //};
-        //    List<Category> categories = _db.Categories.ToList();
-        //    SelectList listItems = new SelectList(categories, "Id", "Name", selectId);
-        //    ViewBag.CategoryList = listItems;
-        //}
+        public void createSelectList(int selectId = 1)
+        {
+
+            List<mvcCategory> categories = _db.MvcCategories.ToList();
+            SelectList listItems = new SelectList(categories, "Id", "Name", selectId);
+            ViewBag.CategoryList = listItems;
+        }
 
         //GET
         public IActionResult Edit(int? Id)
         {
+            createSelectList();
             if (Id == null || Id == 0)
             {
                 return NotFound();

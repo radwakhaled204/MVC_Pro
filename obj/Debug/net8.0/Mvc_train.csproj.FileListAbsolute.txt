@@ -170,3 +170,4 @@ D:\Visual_Projects\Mvc_train\Mvc_train\obj\Debug\net8.0\refint\Mvc_train.dll
 D:\Visual_Projects\Mvc_train\Mvc_train\obj\Debug\net8.0\Mvc_train.pdb
 D:\Visual_Projects\Mvc_train\Mvc_train\obj\Debug\net8.0\Mvc_train.genruntimeconfig.cache
 D:\Visual_Projects\Mvc_train\Mvc_train\obj\Debug\net8.0\ref\Mvc_train.dll
+D:\Visual_Projects\Mvc_train\Mvc_train\obj\Debug\net8.0\Mvc_train.sourcelink.json
