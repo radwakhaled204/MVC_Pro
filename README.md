@@ -1,4 +1,4 @@
-# Project Name: ASP.NET MVC Learning Project
+#  ASP.NET MVC Learning Project
 
 ## Project Overview
 This project is built using the ASP.NET MVC framework as a learning exercise to explore and implement new features, tools, and techniques in web development. The primary objective is to create a functional web application that demonstrates the core concepts of the MVC design pattern while integrating various modern web technologies.
