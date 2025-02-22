@@ -11,6 +11,7 @@ namespace Mvc_train.Data
         }
         public DbSet<Item> Items { get; set; }
         public DbSet<mvcCategory> MvcCategories { get; set; }
+        public DbSet<Employee> Employees { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<mvcCategory>().HasData(
