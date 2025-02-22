@@ -6,7 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//add email service
 builder.Services.AddTransient<IEmailSender, clsEmailConfirm>();
+//add data conection
 builder.Services.AddDbContext<AppDbContext>(Options =>
 Options.UseSqlServer(
     builder.Configuration.GetConnectionString("myConnection")));
