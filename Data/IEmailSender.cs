@@ -2,11 +2,11 @@
 {
     public interface IEmailSender
     {
-        public interface IEmpRepo : IDataRepository<Employee>
-        {
-            void setPayRoll(Employee employee);
+        //public interface IEmpRepo : IDataRepository<Employee>
+        //{
+        //    void setPayRoll(Employee employee);
 
-            decimal getSalary(Employee employee);
-        }
+        //    decimal getSalary(Employee employee);
+        //}
     }
 }
