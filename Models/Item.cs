@@ -22,7 +22,7 @@ namespace Mvc_train.Models
         [DisplayName("Category")]
         [ForeignKey(nameof(Category))]
         public int CategoryId { get; set; }
-
+        //3
         public mvcCategory? Category { get; set; }
     }
 }
