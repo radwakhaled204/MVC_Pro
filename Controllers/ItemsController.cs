@@ -29,25 +29,25 @@ namespace Mvc_train.Controllers
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult New(Item item)
-        {
-            if (item.Name == "100")
-            {
-                ModelState.AddModelError("Name", "Name can't equal 100");
-            }
-            if (ModelState.IsValid)
-            {
+        //public IActionResult New(Item item)
+        //{
+        //    if (item.Name == "100")
+        //    {
+        //        ModelState.AddModelError("Name", "Name can't equal 100");
+        //    }
+        //    if (ModelState.IsValid)
+        //    {
 
-                _db.Items.Add(item);
-                _db.SaveChanges();
-                TempData["successData"] = "Item has been added successfully";
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                return View(item);
-            }
-        }
+        //        _db.Items.Add(item);
+        //        _db.SaveChanges();
+        //        TempData["successData"] = "Item has been added successfully";
+        //        return RedirectToAction("Index");
+        //    }
+        //    else
+        //    {
+        //        return View(item);
+        //    }
+        //}
 
         public void createSelectList(int selectId = 1)
         {
