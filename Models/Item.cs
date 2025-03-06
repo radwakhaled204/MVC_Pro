@@ -3,7 +3,9 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Mvc_train.Models
-{
+{/// <summary>
+/// 9
+/// </summary>
     public class Item
     {
         [Key]
