@@ -31,5 +31,5 @@ namespace Mvc_train.Data
 
             void DeleteList(IEnumerable<T> myList);
         }
-    //3
+    
 }
