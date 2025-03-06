@@ -11,4 +11,3 @@ namespace Mvc_train.Models
         public ICollection<Item>? Items { get; set; }
     }
 }
-//3
