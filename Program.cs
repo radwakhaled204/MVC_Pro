@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Mvc_train.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-//3
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 //add email service
