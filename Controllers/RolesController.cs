@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mvc_train.Controllers
-{//2
-    //[Authorize(Roles = clsRoles.roleAdmin)]
-    //public class RolesController : Controller
-    //{
+{// 9
+ //[Authorize(Roles = clsRoles.roleAdmin)]
+ //public class RolesController : Controller
+ //{
 
     //        public RolesController(UserManager<IdentityUser> user, RoleManager<IdentityRole> roles)
     //        {
@@ -76,6 +76,6 @@ namespace Mvc_train.Controllers
     //            else
     //                return NotFound();
     //        }
-        
+
     //}
 }
