@@ -14,7 +14,7 @@ Options.UseSqlServer(
     builder.Configuration.GetConnectionString("myConnection")));
 
 var app = builder.Build();
-
+// 9
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
