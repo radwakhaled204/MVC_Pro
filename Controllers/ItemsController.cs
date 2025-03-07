@@ -4,7 +4,7 @@ using Mvc_train.Data;
 using Mvc_train.Models;
 
 namespace Mvc_train.Controllers
-{//2
+{// 9
     public class ItemsController : Controller
     {
         public ItemsController(AppDbContext db)
