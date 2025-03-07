@@ -2,7 +2,7 @@
 using System.Net;
 
 namespace Mvc_train.Data
-{
+{// 9
     public class clsEmailConfirm : IEmailSender
     {
         public async Task SendEmailAsync(string email, string subject, string htmlMessage)
