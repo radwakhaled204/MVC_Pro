@@ -3,7 +3,7 @@
 namespace Mvc_train.Models
 {
     public class Employee
-    {/// 9
+    {
         [Key]
         public int Id { get; set; }
 
