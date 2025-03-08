@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 
 namespace Mvc_train.Data
-{// 9
+{
     public class DataRepository<T> : IDataRepository<T> where T : class
     {
         public DataRepository(AppDbContext context)
