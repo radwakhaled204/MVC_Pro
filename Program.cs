@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Mvc_train.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//s
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 //add email service
@@ -14,7 +14,7 @@ Options.UseSqlServer(
     builder.Configuration.GetConnectionString("myConnection")));
 
 var app = builder.Build();
-// 9
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
