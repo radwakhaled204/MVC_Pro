@@ -1,4 +1,4 @@
-﻿// 9using System;
+﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -8,7 +8,7 @@ namespace Mvc_train.Migrations
     /// <inheritdoc />
     public partial class additems : Migration
     {
-        /// <inheritdoc />
+        
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
