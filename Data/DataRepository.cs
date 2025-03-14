@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Mvc_train.Data
 {
+    // CREEATE DataRepository
     public class DataRepository<T> : IDataRepository<T> where T : class
     {
         public DataRepository(AppDbContext context)
