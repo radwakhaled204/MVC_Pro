@@ -9,7 +9,7 @@ namespace Mvc_train.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage ="Please Enter The Name")]
         public string Name { get; set; }
 
         [DisplayName("The Price")]
