@@ -2,6 +2,6 @@
 {
     public class clsRoles
     {
-        public int Id { get; set; }
+      
     }
 }
