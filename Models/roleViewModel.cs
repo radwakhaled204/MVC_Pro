@@ -1,7 +1,7 @@
 ﻿namespace Mvc_train.Models
 {
     public class roleViewModel
-    { // Role
+    { 
         public string? roleId { get; set; }
         
         public string? roleName { get; set; }
