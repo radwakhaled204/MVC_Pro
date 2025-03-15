@@ -2,7 +2,6 @@
 
 namespace Mvc_train.Data
 {
-    //interface
     public interface IDataRepository<T> where T : class
         {
             T FindById(int id);
