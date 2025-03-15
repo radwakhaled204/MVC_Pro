@@ -10,7 +10,7 @@ namespace Mvc_train.Models
         [Required(ErrorMessage = "Please Enter The Name")]
         public string? EmployeeName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please Enter The Name")]
         public string? EmployeePhone { get; set; }
 
         public string? EmployeeEmail { get; set; }
