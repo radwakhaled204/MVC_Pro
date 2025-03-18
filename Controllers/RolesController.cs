@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mvc_train.Controllers
-{
+{//under control
     //[Authorize(Roles = clsRoles.roleAdmin)]
     //public class RolesController : Controller
     //{
