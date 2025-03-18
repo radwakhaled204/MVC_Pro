@@ -2,7 +2,7 @@
 {
     public interface IEmailSender
     {
-        //EMAIL
+       
         //public interface IEmpRepo : IDataRepository<Employee>
         //{
         //    void setPayRoll(Employee employee);
