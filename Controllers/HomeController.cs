@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Mvc_train.Models;
 
 namespace Mvc_train.Controllers
-{ //HomeController
+{ 
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
