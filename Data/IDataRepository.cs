@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 
 namespace Mvc_train.Data
-{
+{//IDataRepository
     public interface IDataRepository<T> where T : class
         {
             T FindById(int id);
