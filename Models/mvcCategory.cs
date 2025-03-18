@@ -6,7 +6,7 @@ namespace Mvc_train.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required(ErrorMessage ="Enter The Name")]
+        [Required(ErrorMessage ="Please Enter The Name")]
         public string? Name { get; set; }
         public ICollection<Item>? Items { get; set; }
     }
