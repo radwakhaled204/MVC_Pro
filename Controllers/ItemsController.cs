@@ -74,7 +74,7 @@ namespace Mvc_train.Controllers
             return View(item);
         }
 
-        //POST
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Item item)
