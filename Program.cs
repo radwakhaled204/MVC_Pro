@@ -20,6 +20,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+//for file
 app.UseStaticFiles();
 
 app.UseRouting();
