@@ -12,7 +12,7 @@ namespace Mvc_train.Models
 
         [Required(ErrorMessage = "Please Enter The Phone")]
         public string? EmployeePhone { get; set; }
-
+        [Required(ErrorMessage = "Please Enter Verfied Email")]
         public string? EmployeeEmail { get; set; }
 
         public int? EmployeeAge { get; set; }
