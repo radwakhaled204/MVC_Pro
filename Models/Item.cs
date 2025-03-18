@@ -16,7 +16,7 @@ namespace Mvc_train.Models
         [Range(10 , 1000 , ErrorMessage = "value must between 10 and 1000")]
         public decimal Price {get; set; }
 
-        [Required(ErrorMessage ="Enter The Date")]
+        [Required(ErrorMessage ="Please Enter The Date")]
         public DateTime CreatedDate { get; set; }= DateTime.Now;
         [Required]
         [DisplayName("Category")]
