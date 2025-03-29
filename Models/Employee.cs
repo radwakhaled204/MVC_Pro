@@ -7,7 +7,7 @@ namespace Mvc_train.Models
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Please Enter T")]
+        [Required(ErrorMessage = "Please Enter Th")]
         public string? EmployeeName { get; set; }
 
         [Required(ErrorMessage = "Please Enter The Phone")]
